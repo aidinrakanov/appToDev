@@ -10,7 +10,6 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupWithNavController
-import com.example.devtest.R
 import com.example.devtest.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
