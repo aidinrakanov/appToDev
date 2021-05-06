@@ -26,10 +26,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val badge = navView.getOrCreateBadge(R.id.navigation_orders)
-        badge.isVisible = true
-        badge.backgroundColor = ContextCompat.getColor(this, R.color.green)
-        badge.number = 2
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         setupNavigation()
@@ -42,6 +38,11 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_orders,
                 R.id.navigation_profile
             ))
+
+        val badge = navView.getOrCreateBadge(R.id.navigation_orders)
+        badge.isVisible = true
+        badge.backgroundColor = ContextCompat.getColor(this, R.color.green)
+        badge.number = 2
 
     }
     private fun setupNavigation() {

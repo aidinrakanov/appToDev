@@ -12,4 +12,11 @@
     <string name="catering">catering</string>
     <string name="curbside">curbside</string>
     <string name="burger_craze">Burger Craze</string>
+
+
+    <string-array name="sort">
+        <item>225 Central Park West, NY 10024, USA</item>
+        <item>284 Central Park West, NY 10058, USA</item>
+        <item>258 Central Park West, NY 10477, USA</item>
+    </string-array>
 </resources>

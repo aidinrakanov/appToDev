@@ -14,7 +14,8 @@ import java.util.ArrayList
 class ViewPagerAdapter(fm: FragmentManager, lifecycle: Lifecycle): FragmentStateAdapter(fm, lifecycle) {
 
     var fragments : ArrayList<Fragment> = arrayListOf(
-        ConvenienceFragment(), GroceryFragment(),PharmacyFragment(), TakeAwaysFragment()
+        TakeAwaysFragment(), ConvenienceFragment(),
+        GroceryFragment(),PharmacyFragment()
     )
 
     override fun getItemCount(): Int {

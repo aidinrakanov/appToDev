@@ -41,10 +41,7 @@ class FoodAdapter(private val list: MutableList<FoodModel>)
             binding.foodCost.text = item.minimum
             binding.distance.text = item.distance
             binding.timeBtn.text = item.time
-
-
-
-            if (item.cornerBool == true){
+            if (item.cornerBool){
                 binding.cornerImage.visibility =View.VISIBLE
                 binding.spendSave.visibility = View.VISIBLE
             }else{
